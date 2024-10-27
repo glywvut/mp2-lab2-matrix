@@ -215,7 +215,7 @@ public:
   {
       if (size() != v.size()) throw ("incorrect sizes");
       TDynamicVector <T> res(sz);
-      for (size_t i = 0; i < sz:++i)
+      for (size_t i = 0; i < sz;++i)
           res.pMem[i] = pMem[i] * v;
       return res;
   }
